@@ -1,7 +1,7 @@
 // Create function that returns either 'Rock', 'Paper' or 'Scissors' at random
 function computerPlay() {
-    let myArray = ['rock', 'paper', 'scissors'];
-    return myArray[Math.floor(Math.random() * myArray.length)];
+    let choices = ['rock', 'paper', 'scissors'];
+    return choices[Math.floor(Math.random() * choices.length)];
 }
 
 //Set computer and player score variables
