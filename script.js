@@ -35,7 +35,7 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-// Function that plays five rounds of Rock, Paper, Scissors and then announces the winner!
+// Function that plays five rounds of Rock, Paper, Scissors and then counts the score and announces the winner!
 function game() {
     //First round
     let playerSelection = prompt("Round one! Rock, Paper or Scissors?");
