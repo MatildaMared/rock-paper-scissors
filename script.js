@@ -1,4 +1,4 @@
-// Create function that returns either 'Rock', 'Paper' or 'Scissors' at random
+// Function that returns either 'Rock', 'Paper' or 'Scissors' at random
 function computerPlay() {
     let choices = ['rock', 'paper', 'scissors'];
     return choices[Math.floor(Math.random() * choices.length)];
@@ -11,7 +11,7 @@ let playerScore = 0;
 // Function that plays a single round of Rock Paper Scissors
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
-        return ("It's a tie!")
+        return ("It's a tie!");
     } else if (playerSelection === "rock" && computerSelection === "scissors") {
         playerScore += 1;
         return ("Rock beats scissors! You won this round!");
